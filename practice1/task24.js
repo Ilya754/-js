@@ -1,0 +1,11 @@
+"use strict";
+let a = Number(prompt("Введите a:"));
+let a2 = a * a;
+let a4 = a2 * a2;
+alert(`a^4 = ${a4}`);
+let a6 = a4 * a2;
+let a8 = a4 * a4;
+let a7 = a6 * a;
+let a9 = a8 * a;
+let a10 = a8 * a2;
+alert(`a^6 = ${a6}\na^7 = ${a7}\na^8 = ${a8}\na^9 = ${a9}\na^10 = ${a10}`);
